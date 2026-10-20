@@ -37,6 +37,8 @@ containers:
       - PHIL_GATE: "token"
       - PHIL_TENANT_SLUG: "ez-street"
       - PHIL_TENANT_NAME: "EZ Street"
+      # One dsh instance per signed-in person (apps/agent/docs/multi-user-harness.md).
+      - PHIL_MULTIUSER: "1"
       - PHIL_AGENT_URL: "https://agent.notacrm.com"
       - TINFOIL_BASE_URL: "https://inference.tinfoil.sh/v1"
       - AGENT_MODEL: "deepseek-v4-1-flash"
